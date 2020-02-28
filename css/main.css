@@ -1,0 +1,101 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #404040;
+    color: white;
+
+    display: flex;
+    padding: 10px;
+}
+
+.navbar .nav-menu .menu {
+    color: white !important;
+    text-decoration: none !important;
+    padding: 10px;
+}
+
+.navbar .nav-menu {
+    margin-left: auto;
+}
+
+.navbar .nav-menu .menu {
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-menu .menu:hover {
+    background-color: #505050;
+}
+
+.blogs {
+    padding: 10px;
+}
+
+.blogs .popular .popular-blogs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.blogs .popular .popular-blogs .blog{
+    display: block;
+    flex-grow: 1;
+    overflow: hidden;
+    max-width: 300px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.blogs .popular .popular-blogs .blog img{
+    width: 100%;
+    height: auto;
+}
+
+.blogs .popular .popular-blogs .blog .blog-detail{
+    padding: 10px;
+}
+
+.blogs .popular .popular-blogs .blog .blog-detail .blog-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.blogs .latest .latest-blogs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.blogs .latest .latest-blogs .blog{
+    display: block;
+    flex-grow: 1;
+    overflow: hidden;
+    max-width: 300px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.blogs .latest .latest-blogs .blog img{
+    width: 100%;
+    height: auto;
+}
+
+.blogs .latest .latest-blogs .blog .blog-detail{
+    padding: 10px;
+}
+
+.blogs .latest .latest-blogs .blog .blog-detail .blog-title{
+    font-weight: bold;
+    font-size: 25px;
+}
